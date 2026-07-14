@@ -42,3 +42,52 @@ body{
 .login-box button:hover{
     background:#1d4ed8;
 }
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#111827;
+    color:white;
+    position:fixed;
+    padding:20px;
+}
+
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+}
+
+
+.sidebar a:hover{
+    background:#2563eb;
+}
+
+
+.main{
+    margin-left:260px;
+    padding:30px;
+}
+
+
+.dashboard{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+
+.box{
+    background:white;
+    width:220px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px #ccc;
+}
+
+
+.box p{
+    font-size:30px;
+    color:#2563eb;
+}
