@@ -81,6 +81,7 @@ body{
 .box{
     background:white;
     width:220px;
+    
     padding:25px;
     border-radius:10px;
     box-shadow:0 5px 15px #ccc;
@@ -156,4 +157,10 @@ th,td{
 
 .approve:hover{
     background:#1d4ed8;
+}
+.chart-box{
+    background:white;
+    padding:20px;
+    margin-top:30px;
+    border-radius:10px;
 }
