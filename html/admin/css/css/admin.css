@@ -145,3 +145,15 @@ th,td{
 .approve:hover{
     background:#1d4ed8;
 }
+.approve{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.approve:hover{
+    background:#1d4ed8;
+}
