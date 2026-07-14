@@ -164,3 +164,34 @@ th,td{
     margin-top:30px;
     border-radius:10px;
 }
+.sidebar{
+    width:240px;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#111827;
+    color:#fff;
+    padding-top:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 20px;
+    transition:.3s;
+}
+
+.sidebar a i{
+    width:25px;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+}
